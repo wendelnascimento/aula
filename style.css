@@ -1,3 +1,30 @@
 body {
 	background: #666;
 }
+
+.box {
+	width: 100px;
+	height: 200px;
+	background: #000;
+	position: absolute;
+	animation: new 1s linear;
+}
+
+.box:hover {
+	background: limegreen;
+}
+
+@keyframes new {
+	0% {
+		left: 10%;
+	}
+	50% {
+		left: 50%;
+	}
+	75% {
+		left: 100%;
+	}
+	100% {
+		left: 0%;
+	}
+}
